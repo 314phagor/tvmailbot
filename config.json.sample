@@ -1,6 +1,6 @@
 {
   "config_version": "0.1",
-  "pop3_server": "server.com"
+  "pop3_server": "server.com:port"
   "email_login": "example@server.com"
   "email_password": "password"
   "exchanges": [
