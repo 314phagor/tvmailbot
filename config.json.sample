@@ -1,0 +1,12 @@
+{
+  "config_version": "0.1",
+  "pop3_server": "server.com"
+  "email_login": "example@server.com"
+  "email_password": "password"
+  "exchanges": [
+    {"name": "bf", "extype": "bitfinex", "apikey": "api-key-here", "apisecret": "api-secret-here"},
+    {"name": "bt", "extype": "bittrex", "apikey": "api-key-here", "apisecret": "api-secret-here"},
+    {"name": "bn", "extype": "binance", "apikey": "api-key-here", "apisecret": "api-secret-here"},
+    {"name": "pl", "extype": "poloniex", "apikey": "api-key-here", "apisecret": "api-secret-here"}
+  ]
+ }
