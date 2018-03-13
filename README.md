@@ -1,11 +1,12 @@
-# tvmailbot
+# Tradingview mailbot
 
-### Visual trading bot for tradingview.com
+### Bot for visual trading on tradingview.com
 
 Bot is monitoring email server and each time email received, the command in email body is parsed and the order to specified exchange is placed. After successful order placement bot sends you notification message. You can also send direct trading commands via email, too.
 
 ## Requirements
 It will be the best if you run this bot on a Linux server (VPS or dedicated)
+Python 2.7
 
 ## Installation
 $ git clone https://github.com/314phagor/tvmailbot.git
@@ -23,4 +24,7 @@ $ git clone https://github.com/314phagor/tvmailbot.git
 * Enable email-to-sms feature for this alert
 * Put trading command to message textbox
  
+Command example: 
+    ex buy DSH BTC 10
+    (on exchange "ex" buy DSH for BTC with amount of 10% of available BTC)
 
